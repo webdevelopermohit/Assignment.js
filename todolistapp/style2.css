@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(96, 179, 207);
+}
+.box{
+    width: 50vw;
+    height: 70vh;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+div h1{
+    text-align: center;
+}
+.header{
+    width: 100%;
+    background-color: rgb(223, 220, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem;
+    margin: 0.5rem 0.2rem;
+    border-radius: 0.2rem;
+}
+.header p{
+    width: 80%;
+    margin-right: 0.5rem;
+}
+.header p input{
+    
+    width: 100%;
+    background-color: rgb(223, 220, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem;
+    border: none;
+    background-color: rgb(224, 224, 224);
+    border-radius: 0.2rem;
+}
+#addnew{
+    background-color: rgb(96, 179, 207);
+    border: none;
+    color: white;
+    border-radius: 0.2rem;
+    padding: 0.4rem 0.6rem;
+    width: 20%;
+}
+#addnew:active,.liItem button:active{
+ transform: translateY(1.5px)
+}
+
+#newItem .liItem{
+    width: 100%;
+    background-color: rgb(223, 220, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0.2rem;
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+}
+.liItem button{
+    background-color: rgb(250, 20, 20);
+    border: none;
+    padding: 0.4rem ;
+    color: white;
+    border-radius: 0.2rem;
+}

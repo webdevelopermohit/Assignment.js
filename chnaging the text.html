@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: lightblue;
+            text-align: center;
+        }
+        p{
+            font-size: 4rem;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <p id="text">"The Most Affordable learning platform" </p>
+    <em> "click Anywhere"</em>
+</div>
+    <script>
+        let text=document.getElementById("text")
+        document.body.addEventListener("click",change)
+        function change(){
+            if(text.innerText==`\"The Most Affordable learning platform\"`){
+                text.innerText=`\"PW SKILL\"`
+            }else if(text.innerText==`\"PW SKILL\"`){
+                text.innerText=`\"The Most Affordable learning platform\"`;
+            }
+        }
+    </script>
+</body>
+</html>

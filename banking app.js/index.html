@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #depositebox,#widrowbox{
+            visibility: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p>Bank of India...</p>
+    </header>
+    <div id="centre">
+    <div id="main">
+    <div id="profile">
+        <div class="profilephoto"><img src="icons8-user-40.png" alt="profile photo"></div>
+        <div class="details">
+            <h3>ACCOUNT NO : 402783992178199</h2>
+            <h4>NAME : Mohit pal</h3>
+            <h4>ADDRESS: Tana,Shamli,Uttar pradesh</h3>
+        </div>
+    </div>
+    <div id="accountbalnace">
+    <h3>Balance :</h3>
+    <h3 style="color: rgb(93, 233, 93);" id="amount">2000/-</h3>
+    </div>
+    <div id="addbutton"><input type="text" id="depositebox" placeholder="Enter the deposite amount"> <button id="depostie">deposit</button></div>
+    <div id="removebutton"><input type="text" id="widrowbox" placeholder="Enter the withdraw amount"><button id="widrow">withdrawal</button></div>
+    <p id="alert"></p>
+    </div>
+    
+    </div>
+    <script src="banking.js"></script>
+
+</body>
+</html>
